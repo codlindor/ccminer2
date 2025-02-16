@@ -3,6 +3,7 @@ instruction:
 download termux or userland
 
 Type:
+,,,
 
 yes | pkg update -y
 yes | pkg upgrade -y
