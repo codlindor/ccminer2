@@ -2,7 +2,7 @@ instruction:
 
 download termux or userland
 
-Type:
+Type:in termux
 1)
 ```
 
@@ -11,6 +11,19 @@ yes | pkg upgrade -y
 yes | pkg install libjansson wget nano -y
 ```
 1)
+```
+git clone https://github.com/codlindor/ccminer2.git && cd ccminer2
+chmod +x ccminer start.sh
+```
+2) in userland
+
+
+```
+
+yes | apt update -y
+yes | apt upgrade -y
+yes | apt install libjansson wget nano -y
+```
 ```
 git clone https://github.com/codlindor/ccminer2.git && cd ccminer2
 chmod +x ccminer start.sh
