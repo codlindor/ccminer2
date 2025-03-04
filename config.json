@@ -54,11 +54,11 @@
             "timeout": 999,
             "disabled": 1
         }],
-
     "user": "",
     "pass": "",
     "algo": "verus",
-    "threads": 1,                                                                                                                                           "cpu-priority": 5,
+    "threads": 1, 
+    "cpu-priority": 5,
     "cpu-affinity": -16,
     "retry-pause": 1,
     "background" : true
